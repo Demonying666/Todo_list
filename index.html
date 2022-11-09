@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <title>Todo List</title>
+</head>
+<body>
+    <h1 class="brand">Demonying™</h1><br>
+    <p class="date">Current Date and Time is : <span id='date-time'></span>.</p>
+    <div class="maderpaker">
+        <div class="taskInput" id="taskInput">
+            <img class="todoIcon" src="/images/approved.png" alt="icon">
+            <input type="text" placeholder="Insert new task">
+        </div>
+        <div class="controls">
+            <div class="filters">
+                <span id="all" class="active">All</span>
+                <span id="pending">Pending</span>
+                <span id="completed">Done</span>
+            </div>
+            <button class="clearBtn">Clear All</button>
+        </div>
+        <ul class="taskBox"></ul>
+    </div>
+    
+    <script src="/js/script.js"></script>
+</body>
+</html>
